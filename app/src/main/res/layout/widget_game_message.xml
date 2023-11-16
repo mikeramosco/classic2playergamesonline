@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gameMessageTextView"
+        android:textColor="@color/darkGray"
+        android:text="@string/hitText"
+        android:textSize="@dimen/_16sdp"
+        android:gravity="start"
+        android:paddingLeft="@dimen/_29sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        android:paddingTop="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_54sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        app:fontFamily="@font/fredoka_one"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/bubble_incoming_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

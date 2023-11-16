@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bottomsheetRoomCodePrompt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roomCodeText"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:fontFamily="@font/fredoka_one" />
+
+    <TextView
+        android:id="@+id/bottomsheetRoomCode"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCD"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_54sdp"
+        app:fontFamily="@font/fredoka_one" />
+
+    <TextView
+        android:id="@+id/bottomsheetRoomCodeInfo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/joinRoomCodeDetailsText"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_19sdp"
+        app:fontFamily="@font/fredoka_one" />
+
+    <Button
+        android:id="@+id/bottomsheetRoomCodeHelp"
+        android:layout_width="@dimen/_162sdp"
+        android:layout_height="@dimen/_31sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="@string/needHelpText"
+        android:background="@drawable/button_rounded"
+        app:fontFamily="@font/fredoka_one"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/bottomsheetRoomCodeCancel"
+        android:layout_width="@dimen/_162sdp"
+        android:layout_height="@dimen/_31sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:text="@string/cancelText"
+        android:background="@drawable/button_rounded"
+        app:fontFamily="@font/fredoka_one"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hideGameText"
+            android:textColor="@color/mediumGray"
+            android:textSize="@dimen/_11sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_gravity="center"
+            app:fontFamily="@font/fredoka_one" />
+
+        <Switch
+            android:id="@+id/hideGameMessagesSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/bottomsheetOnlineMessagesExitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_icon_background"
+            android:padding="@dimen/_2sdp" >
+
+            <ImageView
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="@dimen/_27sdp"
+                android:background="@drawable/ic_close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/onlineMessagesScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_162sdp"
+        android:background="@drawable/widget_outline"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_12sdp" >
+
+        <LinearLayout
+            android:id="@+id/onlineMessagesView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:paddingTop="@dimen/_8sdp"
+            android:gravity="start" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_23sdp" >
+
+        <EditText
+            android:id="@+id/onlineMessagesTextField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/widget_outline"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_weight="3"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp"
+            android:textSize="@dimen/_16sdp"
+            android:hint="your message here"
+            app:fontFamily="@font/fredoka_one"/>
+
+        <Button
+            android:id="@+id/onlineMessagesSendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_31sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:text="@string/sendText"
+            android:background="@drawable/button_rounded"
+            app:fontFamily="@font/fredoka_one"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

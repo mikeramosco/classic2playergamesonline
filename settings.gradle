@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Classic 2 Player Games ONLINE'

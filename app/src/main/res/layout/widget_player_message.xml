@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/playerMessageTextView"
+        android:textColor="@android:color/white"
+        android:text="@string/hitText"
+        android:textSize="@dimen/_16sdp"
+        android:gravity="start"
+        android:layout_gravity="end"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_29sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        android:paddingTop="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_54sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        app:fontFamily="@font/fredoka_one"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/bubble_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

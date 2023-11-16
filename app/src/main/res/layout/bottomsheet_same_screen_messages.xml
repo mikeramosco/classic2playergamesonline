@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottomsheetSameScreenMessagesExitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_gravity="end"
+        android:background="@drawable/button_icon_background"
+        android:padding="@dimen/_2sdp" >
+
+        <ImageView
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:background="@drawable/ic_close" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sameScreenMessagesScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_231sdp"
+        android:background="@drawable/widget_outline"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp">
+
+        <LinearLayout
+            android:id="@+id/sameScreenMessagesView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:paddingTop="@dimen/_8sdp"
+            android:gravity="start" />
+
+    </ScrollView>
+
+</LinearLayout>

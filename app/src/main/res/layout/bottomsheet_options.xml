@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_12sdp" />
+
+        <LinearLayout
+            android:id="@+id/bottomsheetOptionsExitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_icon_background"
+            android:padding="@dimen/_2sdp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="@dimen/_27sdp"
+                android:background="@drawable/ic_close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bottomsheetPrompt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The text of this TextView will be replaced with a prompt."
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        app:fontFamily="@font/fredoka_one" />
+
+    <LinearLayout
+        android:id="@+id/bottomsheetOption1Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            android:id="@+id/option1ProgressBar"
+            android:indeterminateDrawable="@drawable/progress_circle"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/bottomsheetOption1"
+            android:layout_width="@dimen/_162sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:background="@drawable/button_rounded"
+            android:text="Option"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_14sdp"
+            app:fontFamily="@font/fredoka_one" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottomsheetOption2Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            android:id="@+id/option2ProgressBar"
+            android:indeterminateDrawable="@drawable/progress_circle"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/bottomsheetOption2"
+            android:layout_width="@dimen/_162sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:text="Option"
+            android:background="@drawable/button_rounded"
+            app:fontFamily="@font/fredoka_one"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomsheetOption3Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            android:id="@+id/option3ProgressBar"
+            android:indeterminateDrawable="@drawable/progress_circle"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/bottomsheetOption3"
+            android:layout_width="@dimen/_162sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:text="Option"
+            android:background="@drawable/button_rounded"
+            app:fontFamily="@font/fredoka_one"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomsheetOption4Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            android:id="@+id/option4ProgressBar"
+            android:indeterminateDrawable="@drawable/progress_circle"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/bottomsheetOption4"
+            android:layout_width="@dimen/_162sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:text="Option"
+            android:background="@drawable/button_rounded"
+            app:fontFamily="@font/fredoka_one"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

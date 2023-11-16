@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Classic 2 Player Games ONLINE</string>
+    <string name="app_name2">Classic 2 Player Games</string>
+
+    <!--  Text View Content  -->
+    <string name="otherWaysToPlayText">Other Ways to Play:</string>
+    <string name="joinRoomCodeText">@string/roomCodeText</string>
+    <string name="roomCodeText">Room Code:</string>
+    <string name="joinRoomCodeDetailsText">The game will start when\nyour friend joins the room!</string>
+    <string name="playMethodPrompt">How will you play together?</string>
+    <string name="firstMovePrompt">Who will move first?</string>
+    <string name="confirmCancelPrompt">The room will be cancelled.\nDo you still want to leave?</string>
+    <string name="gamePreparingPrompt">Please wait while the game is being prepared.</string>
+    <string name="playerSetupShipsPrompt">Player %1$s\'s Turn to Setup Ships</string>
+    <string name="playerMovesNextPrompt">Player %1$s\'s Turn</string>
+    <string name="detailsRoomCodeText">Room %1$s</string>
+    <string name="itsYourTurnText">It\'s your turn!</string>
+    <string name="itsTheirTurnText">It\'s their turn!</string>
+    <string name="yesterdayText">yesterday</string>
+    <string name="todayText">today</string>
+    <string name="daysAgoText">%1$s days ago</string>
+    <string name="lastMoveText">Updated %1$s</string>
+    <string name="gameoversFirstText">gameovers first</string>
+    <string name="inactiveGamesDeletedMessage">Games will be deleted after 60 days of inactivity\nEffective January 1, 2023</string>
+    <string name="mastermindFirstMovePrompt">Who will setup the pattern?</string>
+    <string name="hideGameText">hide game messages</string>
+    <string name="confirmQuitSameScreenGamePrompt">This action will end the current game. Continue?</string>
+
+    <!--  Need Help Text  -->
+    <string name="showText">show</string>
+    <string name="hideText">hide</string>
+    <string name="playingOnlineText1">From the home page, press \"Start Game\" on the game you\'d like to play, then press \"Online\" &amp; a room code will appear.</string>
+    <string name="playingOnlineText2">From the home page on another device, press \"Join Room\" &amp; enter the room code from the first device.</string>
+    <string name="playingOnlineText3">Once you click \"Join Room,\" the host will pick who will move first &amp; the game will start!</string>
+    <string name="howToPlayBattleshipText1">Each player arranges their ships by selecting a ship &amp; tapping where to place it.</string>
+    <string name="howToPlayBattleshipText2">Use the rotate button to rotate ships.</string>
+    <string name="howToPlayBattleshipText3">Click the \"Ready\" button once you\'re satisfied with your ship setup.</string>
+    <string name="howToPlayBattleshipText4">Players take turns tapping on their opponent\'s board spaces to guess where their ships are. If you get a hit, you move again.</string>
+    <string name="howToPlayBattleshipText5">To switch between boards, tap the arrow button above the board. (The left board is yours &amp; the right board is your opponents.)</string>
+    <string name="howToPlayBattleshipText6">A ship will sink when all ship spaces have been hit. The player who sinks all of their opponent\'s ships first wins the game!</string>
+    <string name="howToPlayConnect4Text1">Players take turns dropping pieces into a column of the board.</string>
+    <string name="howToPlayConnect4Text2">The player who lines up 4 pieces in a row first wins!</string>
+    <string name="howToPlayConnect4Text3">Pieces can be lined up vertically, horizontally, or diagonally.</string>
+    <string name="howToPlayMastermindText1">The 1st player will set a 4 color pattern by tapping a color &amp; a gray space above the color options.</string>
+    <string name="howToPlayMastermindText2">When ready, press the green play button to submit the pattern.</string>
+    <string name="howToPlayMastermindText3">The 2nd player has 10 attempts to guess the pattern set by the 1st player, otherwise the 1st player wins!</string>
+    <string name="howToPlayMastermindText4">On the board under each attempt, pegs are shown for how many colors of the pattern were guessed correctly, but not in any specific order.</string>
+    <string name="howToPlayMastermindText5">Black pegs show how many are in the right place &amp; white pegs show how many are in the wrong place.</string>
+    <string name="howToPlayMastermindText6">When 4 black pegs are shown, that means that the pattern has been guessed &amp; the 2nd player wins!</string>
+
+    <!--  Button Text  -->
+    <string name="startGameText">Start Game</string>
+    <string name="activeRoomsText">Active Games</string>
+    <string name="changeStyleText">Change Style</string>
+    <string name="joinRoomText">Join Room</string>
+    <string name="sendInviteText">Send Invite</string>
+    <string name="needHelpText">Need Help?</string>
+    <string name="onlineText">Online</string>
+    <string name="sameScreenText">Same Screen</string>
+    <string name="cancelText">Cancel</string>
+    <string name="pickRandomText">Random</string>
+    <string name="themText">Them</string>
+    <string name="theyText">They</string>
+    <string name="youText">You</string>
+    <string name="theirText">their</string>
+    <string name="yourText">your</string>
+    <string name="yesText">Yes</string>
+    <string name="noText">No</string>
+    <string name="returnHomeText">Return Home</string>
+    <string name="menuText">Menu</string>
+    <string name="gameSettingsText">Game Settings</string>
+    <string name="readyLoudText">Ready!</string>
+    <string name="readyText">Ready</string>
+    <string name="restartText">Restart</string>
+    <string name="okayText">Okay</string>
+    <string name="resumeText">Resume</string>
+    <string name="deleteText">Delete</string>
+    <string name="sendText">Send</string>
+    <string name="howToPlayText">How to Play</string>
+    <string name="playOnlineText">Playing Online</string>
+
+    <!--  Game Text  -->
+    <string name="missText">Player %1$s got a MISS on %2$s</string>
+    <string name="hitText">Player %1$s got a HIT on %2$s</string>
+    <string name="sunkShipText">Player %1$s sunk Player %2$s\'s %3$s</string>
+    <string name="carrierText">Carrier</string>
+    <string name="battleshipBoatText">Large Ship</string>
+    <string name="submarineText">Submarine</string>
+    <string name="largeShipText">Medium Ship</string>
+    <string name="tinyShipText">Small Ship</string>
+    <string name="gameOverText">Player %1$s wins! Game over!</string>
+    <string name="gameOverRedWins">Red wins! Game over!</string>
+    <string name="gameOverYellowWins">Yellow wins! Game over!</string>
+    <string name="gameOverOutOfSlots">Board is out of slots! Game over!</string>
+    <string name="itsRedsTurnText">It\'s Red\'s turn!</string>
+    <string name="itsYellowsTurnText">It\'s Yellow\'s turn!</string>
+    <string name="setupPatternPrompt">Create the pattern to be guessed</string>
+    <string name="opponentWillGuessPrompt">Your opponent will try to guess</string>
+    <string name="guessThePatternPrompt">Guess the pattern!</string>
+    <string name="gameOverGuessedPatternPrompt">You guessed the pattern! Game over!</string>
+    <string name="gameOverTheyGuessedPatternPrompt">They guessed the pattern! Game over!</string>
+    <string name="gameOverOutOfGuessesPrompt">You\'re out of guesses! Game over!</string>
+    <string name="gameOverTheyreOutOfGuessesPrompt">They\'re out of guesses! Game over!</string>
+    <string name="waitForPatternSetupPrompt">Your opponent will set a pattern</string>
+
+    <!--  Online Option Prompts  -->
+    <string name="setupShipsOnlinePrompt">Setup your ships to begin!</string>
+    <string name="opponentSettingUpOnlinePrompt">Opponent is setting up their ships</string>
+    <string name="opponentFirstTurnOnlinePrompt">They have the first move</string>
+    <string name="playersFirstTurnOnlinePrompt">You have the first move</string>
+    <string name="opponentTurnOnlinePrompt">Their turn</string>
+    <string name="playersTurnOnlinePrompt">Your turn</string>
+    <string name="onlineHitText">%1$s: HIT on %2$s</string>
+    <string name="onlineMissText">%1$s: MISS on %2$s; %3$s</string>
+    <string name="onlineHitTextOnReturn">%1$s: HIT on %2$s; %3$s</string>
+    <string name="onlineGameOverText">%1$s win! Game over!</string>
+    <string name="onlineSunkShipText">%1$s sunk %2$s %3$s</string>
+    <string name="opponentRequestedRestartPrompt">Your opponent has requested to restart the game. Proceed to restart game?</string>
+    <string name="restartRequestSentPrompt">Your request to restart the game has been sent.</string>
+    <string name="restartRequestDeniedPrompt">Your request to restart the game has been denied.</string>
+    <string name="confirmDeletePrompt">Are you sure you want to delete this room?</string>
+    <string name="confirmSameScreenRestartPrompt">Are you sure you want to restart?</string>
+    <string name="roomWasDeletedPrompt">This room has been deleted.</string>
+    <string name="unableToConnectPrompt">Unable to retrieve data. Please check your internet connection.</string>
+    <string name="roomAlreadyHasClientPrompt">This room already has a client.</string>
+    <string name="noRoomFoundPrompt">There was no room found with that code.</string>
+    <string name="invalidRoomCodePrompt">Please enter a valid room code.</string>
+    <string name="gameOverYouWonText">Game over, you won!</string>
+    <string name="gameOverTheyWonText">Game over, they won!</string>
+    <string name="gameOverItsATieText">Game over, it\'s a tie!</string>
+
+    <!--  Game Titles  -->
+    <string name="battleshipText">Battle Overseas</string>
+    <string name="connect4Text">Four in a Row</string>
+    <string name="mancalaText">Pickup Stones</string>
+    <string name="mastermindText">Guess the Pattern</string>
+    <string name="othelloText">Flip Black &amp; White</string>
+
+    <string-array name="listOfGamesArray">
+        <item>@string/battleshipText</item>
+        <item>@string/connect4Text</item>
+        <item>@string/mastermindText</item>
+    </string-array>
+
+<!--    <string-array name="listOfGamesArray">-->
+<!--        <item>@string/battleshipText</item>-->
+<!--        <item>@string/connect4Text</item>-->
+<!--        <item>@string/mancalaText</item>-->
+<!--        <item>@string/mastermindText</item>-->
+<!--        <item>@string/othelloText</item>-->
+<!--    </string-array>-->
+
+    <string name="admob_app_id">ca-app-pub-8309173490878454~1791183221</string>
+    <string name="admob_banner_ad">ca-app-pub-8309173490878454/1990014849</string>
+    
+</resources>

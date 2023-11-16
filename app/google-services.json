@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562075511192",
+    "firebase_url": "https://classic-2-player-games.firebaseio.com",
+    "project_id": "classic-2-player-games",
+    "storage_bucket": "classic-2-player-games.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562075511192:android:d6d1dae23a52763b4c63ed",
+        "android_client_info": {
+          "package_name": "com.justanotherdeveloper.classic2playergamesonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562075511192-qncv648nq2gatga7vg5outtd5s6j6j04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv_6CgP3zm_OEaVS97d1CIbf5vaqgwKEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562075511192-qncv648nq2gatga7vg5outtd5s6j6j04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
